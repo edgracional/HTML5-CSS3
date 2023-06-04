@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.Exemplo {
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    margin: auto;
+    margin-top: 100px;
+
+    /* Colocando sombra terceiro item é o blur o quarto a cor*/
+    box-shadow:10px 10px 3px coral;
+     
+}
+.Exemplo2 {
+    
+    margin: auto;
+    color: green; 
+    font-size: 40px;   
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    /* Colocando sombra terceiro item é o blur o quarto a cor*/
+    text-shadow: 2px 2px 3px coral;
+     
+}
