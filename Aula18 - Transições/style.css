@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.Exemplo {
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    margin: auto;
+    margin-top: 100px;
+    /* Para fazer uma transação suave 1 segundo e linear */
+    transition:all 1s linear;
+
+}
+
+/* Transição - fazer com que o quadrado dobre de largura */
+.Exemplo:hover {
+    background-color: coral;
+    width: 300px;
+}
+
+a {
+    color: black;
+    transition: all 1s linear;
+    
+}
+
+a:hover {
+    color: #ff0000;
+}
