@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.Exemplo {
+    width: 250px;
+    height: 250px;
+    background-color: coral;
+    margin: auto;
+    margin-top: 100px;
+    /* Para fazer uma transação suave 1 segundo e linear */
+    transition:all 1s linear;
+
+}
+
+.engine {
+    margin-top: 10px;
+}
+
+.Exemplo h1 {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
